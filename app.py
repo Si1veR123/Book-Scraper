@@ -6,7 +6,7 @@ Order of files in this project app.py > page.py > BookParser.py > locators.py
 
 
 import requests
-from Web_Scraping.Web_Scraper_Books.Page.page import Page
+import Page
 
 while True:
     # print from page
