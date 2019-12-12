@@ -4,8 +4,8 @@ This file makes the BeautifulSoup and selects each of the books
 
 
 from bs4 import BeautifulSoup
-from Web_Scraping.Web_Scraper_Books.Parsers.BookParser import Parser
-from Web_Scraping.Web_Scraper_Books.Locators.locators import Locators
+from .Parsers.BookParser import Parser
+from locators.locators import Locators
 
 class Page:
     def __init__(self, html):
