@@ -6,7 +6,7 @@ Order of files in this project app.py > page.py > BookParser.py > locators.py
 
 
 import requests
-import Page
+from page.py import Page
 
 while True:
     # print from page
