@@ -2,7 +2,7 @@
 Extracts data from each book
 """
 
-from Web_Scraping.Web_Scraper_Books.Locators.locators import Locators
+from ..Locators.locators import Locators
 import re
 
 # custom error
