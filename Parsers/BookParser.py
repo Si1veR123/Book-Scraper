@@ -2,7 +2,7 @@
 Extracts data from each book
 """
 
-from ..Locators.locators import Locators
+from ..locators.locators import Locators
 import re
 
 # custom error
